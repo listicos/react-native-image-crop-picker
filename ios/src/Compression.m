@@ -35,10 +35,10 @@
     NSNumber *maxWidth = [options valueForKey:@"compressImageMaxWidth"];
     NSNumber *maxHeight = [options valueForKey:@"compressImageMaxHeight"];
     ImageResult *result = [[ImageResult alloc] init];
-                                
+    
     //[origin] if ([maxWidth integerValue] == 0 || [maxHeight integerValue] == 0) {
     //when pick a width< height image and only set "compressImageMaxWidth",will cause a {0,0}size image
-    //Now fix it                       
+    //Now fix it
     if ([maxWidth integerValue] == 0 || [maxHeight integerValue] == 0) {
         result.width = [NSNumber numberWithFloat:image.size.width];
         result.height = [NSNumber numberWithFloat:image.size.height];
@@ -71,18 +71,20 @@
     ImageResult *result = [self compressImageDimensions:image withOptions:options];
     
     if([@"image/png" isEqualToString:[options objectForKey:@"mimeType"]]){
-        result.data = UIImagePNGRepresentation(image);
+        YYImageEncoder *webPEncoder = [[YYImageEncoder alloc] initWithType:YYImageTypeWebP];
+        [webPEncoder addImage:image duration:0];
+        result.data = [webPEncoder encode];
         result.mime = @"image/png";
     } else {
         NSNumber *compressQuality = [options valueForKey:@"compressImageQuality"];
         if (compressQuality == nil) {
             compressQuality = [NSNumber numberWithFloat:1];
         }
-
+        
         result.data = UIImageJPEGRepresentation(result.image, [compressQuality floatValue]);
         result.mime = @"image/jpeg";
     }
-
+    
     return result;
 }
 
