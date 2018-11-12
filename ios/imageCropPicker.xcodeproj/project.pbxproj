@@ -17,6 +17,7 @@
 		5CA54E482199D5250072E235 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E422199D5250072E235 /* YYSpriteSheetImage.m */; };
 		5CA54E492199D5250072E235 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E432199D5250072E235 /* YYImage.m */; };
 		5CA54E4A2199D5250072E235 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E452199D5250072E235 /* YYFrameImage.m */; };
+		5CD429DA219A06CB0031E766 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD429D6219A06CB0031E766 /* WebP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		5CA54E432199D5250072E235 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
 		5CA54E442199D5250072E235 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
 		5CA54E452199D5250072E235 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		5CD429D6219A06CB0031E766 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD429DA219A06CB0031E766 /* WebP.framework in Frameworks */,
 				34EC4AB51D78FEC6001E9E86 /* QBImagePicker.framework in Frameworks */,
 				34EC4AB61D78FEC6001E9E86 /* RSKImageCropper.framework in Frameworks */,
 			);
@@ -125,6 +128,7 @@
 		347ACA041E4B2B2F0068D500 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CD429D6219A06CB0031E766 /* WebP.framework */,
 				347ACA051E4B2B2F0068D500 /* libRCTImage.a */,
 			);
 			name = Frameworks;
