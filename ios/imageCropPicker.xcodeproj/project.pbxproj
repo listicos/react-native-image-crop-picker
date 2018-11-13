@@ -17,6 +17,14 @@
 		5CA54E482199D5250072E235 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E422199D5250072E235 /* YYSpriteSheetImage.m */; };
 		5CA54E492199D5250072E235 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E432199D5250072E235 /* YYImage.m */; };
 		5CA54E4A2199D5250072E235 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA54E452199D5250072E235 /* YYFrameImage.m */; };
+		5CB7C41B219A89B5005E4F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C417219A89B5005E4F69 /* UIKit.framework */; };
+		5CB7C41D219A89BB005E4F69 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C41C219A89BB005E4F69 /* CoreFoundation.framework */; };
+		5CB7C41F219A89D1005E4F69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C41E219A89D1005E4F69 /* QuartzCore.framework */; };
+		5CB7C421219A89D6005E4F69 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C420219A89D6005E4F69 /* AssetsLibrary.framework */; };
+		5CB7C423219A89DB005E4F69 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C422219A89DB005E4F69 /* ImageIO.framework */; };
+		5CB7C425219A89E1005E4F69 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C424219A89E1005E4F69 /* Accelerate.framework */; };
+		5CB7C427219A89E6005E4F69 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C426219A89E6005E4F69 /* MobileCoreServices.framework */; };
+		5CB7C429219A89EC005E4F69 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7C428219A89EC005E4F69 /* libz.tbd */; };
 		5CD429DA219A06CB0031E766 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD429D6219A06CB0031E766 /* WebP.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +73,14 @@
 		5CA54E432199D5250072E235 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
 		5CA54E442199D5250072E235 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
 		5CA54E452199D5250072E235 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		5CB7C417219A89B5005E4F69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CB7C41C219A89BB005E4F69 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5CB7C41E219A89D1005E4F69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5CB7C420219A89D6005E4F69 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5CB7C422219A89DB005E4F69 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5CB7C424219A89E1005E4F69 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5CB7C426219A89E6005E4F69 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5CB7C428219A89EC005E4F69 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5CD429D6219A06CB0031E766 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +89,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB7C429219A89EC005E4F69 /* libz.tbd in Frameworks */,
+				5CB7C427219A89E6005E4F69 /* MobileCoreServices.framework in Frameworks */,
+				5CB7C425219A89E1005E4F69 /* Accelerate.framework in Frameworks */,
+				5CB7C423219A89DB005E4F69 /* ImageIO.framework in Frameworks */,
+				5CB7C421219A89D6005E4F69 /* AssetsLibrary.framework in Frameworks */,
+				5CB7C41F219A89D1005E4F69 /* QuartzCore.framework in Frameworks */,
+				5CB7C41D219A89BB005E4F69 /* CoreFoundation.framework in Frameworks */,
+				5CB7C41B219A89B5005E4F69 /* UIKit.framework in Frameworks */,
 				5CD429DA219A06CB0031E766 /* WebP.framework in Frameworks */,
 				34EC4AB51D78FEC6001E9E86 /* QBImagePicker.framework in Frameworks */,
 				34EC4AB61D78FEC6001E9E86 /* RSKImageCropper.framework in Frameworks */,
@@ -128,6 +152,14 @@
 		347ACA041E4B2B2F0068D500 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CB7C428219A89EC005E4F69 /* libz.tbd */,
+				5CB7C426219A89E6005E4F69 /* MobileCoreServices.framework */,
+				5CB7C424219A89E1005E4F69 /* Accelerate.framework */,
+				5CB7C422219A89DB005E4F69 /* ImageIO.framework */,
+				5CB7C420219A89D6005E4F69 /* AssetsLibrary.framework */,
+				5CB7C41E219A89D1005E4F69 /* QuartzCore.framework */,
+				5CB7C41C219A89BB005E4F69 /* CoreFoundation.framework */,
+				5CB7C417219A89B5005E4F69 /* UIKit.framework */,
 				5CD429D6219A06CB0031E766 /* WebP.framework */,
 				347ACA051E4B2B2F0068D500 /* libRCTImage.a */,
 			);
